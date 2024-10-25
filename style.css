@@ -1,0 +1,31 @@
+.calculator-outer {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(4, 70px);
+  margin: 0 auto;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+.screen {
+  width: 97%;
+  height: 60px;
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}

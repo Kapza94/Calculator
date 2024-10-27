@@ -8,6 +8,7 @@
   grid-template-columns: repeat(4, 70px);
   grid-template-rows: repeat(4, 70px);
   margin: 0 auto;
+  justify-content: center;
 }
 
 .grid-item {
@@ -20,12 +21,12 @@
 }
 
 .screen {
-  width: 97%;
+  width: 64%;
   height: 60px;
   background-color: gray;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 1.5rem auto;
 }

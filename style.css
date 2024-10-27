@@ -1,6 +1,9 @@
 .calculator-outer {
   margin: 0 auto;
-  width: 30%;
+  width: 20%;
+  background-color: #374353;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .grid-container {
@@ -12,16 +15,19 @@
 }
 
 .grid-item {
+  font-size: xx-large;
+  color: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: cornflowerblue;
+  background-color: #374353;
   border-radius: 10px;
-  margin: 1px;
+  margin: 10px;
+  filter: drop-shadow(1px 1px 3px #838383);
 }
 
 .screen {
-  width: 64%;
+  width: 95%;
   height: 60px;
   background-color: gray;
   border-radius: 10px;
@@ -30,3 +36,5 @@
   justify-content: center;
   margin: 1.5rem auto;
 }
+
+

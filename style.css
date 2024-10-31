@@ -29,12 +29,11 @@
 .screen {
   width: 95%;
   height: 60px;
-  background-color: gray;
+  background-color: #374353;
+  filter: drop-shadow(1px 1px 3px #838383);
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 1.5rem auto;
 }
-
-

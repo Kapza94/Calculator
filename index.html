@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Calculator</title>
   </head>
   <body>
     <nav>
@@ -13,25 +13,30 @@
     </nav>
     <div class="container">
       <div class="calculator-outer">
-        <div class="screen"></div>
+        <div id="screenId" class="screen">
+          <span id="first-val" class="show"></span>
+          <span id="second-val" class="show"></span>
+        </div>
 
         <div class="grid-container">
-          <div class="grid-item">7</div>
-          <div class="grid-item">8</div>
-          <div class="grid-item">9</div>
-          <div class="grid-item">+</div>
-          <div class="grid-item">5</div>
-          <div class="grid-item">6</div>
-          <div class="grid-item">7</div>
-          <div class="grid-item">-</div>
-          <div class="grid-item">1</div>
-          <div class="grid-item">2</div>
-          <div class="grid-item">3</div>
-          <div class="grid-item">/</div>
-          <div class="grid-item">0</div>
-          <div class="grid-item">C</div>
-          <div class="grid-item">.</div>
-          <div class="grid-item">=</div>
+          <button id="seven" class="grid-item" onclick="getNumber(7)">7</button>
+          <button id="eight" class="grid-item" onclick="getNumber(8)">8</button>
+          <button id="nine" class="grid-item">9</button>
+          <button id="four" class="grid-item">4</button>
+          <button id="five" class="grid-item">5</button>
+          <button id="six" class="grid-item">6</button>
+          <button id="one" class="grid-item">1</button>
+          <button id="two" class="grid-item">2</button>
+          <button id="three" class="grid-item">3</button>
+          <button id="zero" class="grid-item">0</button>
+          <div id="operators">
+            <button id="plus" class="operator grid-item" onclick="getOperator('+')">+</button>
+            <button id="divide" class="operator grid-item">/</button>
+            <button id="minus" class="operator grid-item">-</button>
+            <button id="clear" class="operator grid-item" onclick="clear()">C</button>
+            <button id="multiply" class="operator grid-item">X</button>
+            <button id="equals" class="operator grid-item">=</button>
+          </div>
         </div>
       </div>
     </div>
